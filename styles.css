@@ -1,0 +1,53 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #353839;
+}
+
+div.cv {
+  background-color: #efefef;
+  margin: auto 100px;
+}
+
+img.profile_pic {
+  width: 90%;
+  margin: 10px;
+}
+
+div.personal_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90%;
+}
+
+div.personal_info > p {
+  margin: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+div.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 20px;
+}
+
+div.title > p {
+  margin: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+div.contact {
+  margin: 30px 60px;
+}
+
+div.with_border {
+  border-bottom: solid 1px #353839; 
+  margin: 0;
+}
